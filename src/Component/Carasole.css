@@ -1,0 +1,65 @@
+
+.slide1 {
+    background-image : url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 100%;
+    height           : 100vh;
+    /* transition: transform 7s ease,-webkit-transform 7s ease; */
+}
+
+.slide2 {
+    background-image : url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 100%;
+    height           : 100vh;
+}
+
+.slide3 {
+    background-image : url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 100%;
+    height           : 100vh;
+}
+
+.text {
+    color         : #010921;
+    text-align    : center;
+    text-transform: uppercase;
+    color         : #fff;
+    line-height   : 1.15em;
+    font-family   : 'Oswald', sans-serif;
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    font-weight   : 700;
+    margin        : 5px 0 30px;
+    font-size     : 120px;
+    position      : relative;
+    top           : 40%;
+    left          : 60%;
+    transform     : translatex(-60%) translateY(-50%);
+}
+
+.btn-main {
+    width     : 15%;
+    height    : 10%;
+    text-align: center;
+    position  : relative;
+    top       : 30%;
+    left      : 50%;
+    transform : translatex(-60%) translateY(-50%);
+
+}
+
+.slick-arrow {
+    display     : block;
+    margin-right: 60px;
+    color       : black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size  : 38px;
+}

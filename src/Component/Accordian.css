@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.acc-title {
+    background-color: #0D152D;
+    width           : 100%;
+    color           : white;
+    padding         : 10px 20px;
+    margin          : 10px 0px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+
+
+}
+
+.acc-title h3 {
+    text-transform: capitalize;
+    font-weight   : 500;
+    font-size     : 20px;
+    letter-spacing: 1px;
+
+}
+
+.acc-title p {
+    padding: 30px 0px 30px;
+
+}
+
+.acc-span {
+    padding: 7px;
+    width  : 10px;
+    cursor : pointer;
+
+}

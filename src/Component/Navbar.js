@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom';
-import logo from "../images/logo.png"
+import logo from "../images/logo2.png"
 import hamburger from "../images/hamburger.png"
 // import { Person, Mail } from "@material-ui/icons";
 import "./Navbar.css"
@@ -68,17 +68,17 @@ function Navbar() {
             </section> */}
 
             <nav className={navbar ? "nav active " : "nav"}>
-                <Link to="/" className="logo">
-                    <img src={logo} alt="" />
+                <Link to="/" >
+                    <img id="logo" src={logo} alt="" />
                 </Link>
                 <input className="menu-btn" id="menu-btn" type="checkboxF"></input>
                 <label className="menu-icon" for="menu-btn">
-                    <span   className="nav-icon navbar-toggle "></span>
+                    <span className="nav-icon navbar-toggle "></span>
                 </label>
                 <ul className="menu">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">About</Link></li>
-                    <li><Link to="/">Portfolio</Link></li>
+                    <li><Link to="/aboutus">About</Link></li>
+                    <li><Link to="/works">Works</Link></li>
                     <li><Link to="Contact">Contact</Link></li>
 
                 </ul>

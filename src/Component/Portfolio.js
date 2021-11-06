@@ -44,10 +44,7 @@ function Portfolio() {
 
                 </div>
 
-
-
-
-                <div class="row">
+                <div class="row mb-4">
                     {
                         getdata.map((curElem) => {
                             return <article class="col-md-4 col-sm-6 portfolio-item web-design apps psd">

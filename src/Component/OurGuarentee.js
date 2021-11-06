@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../images/services.png"
+import image from "../Pages/images/about-img.png"
 import line from "../images/vertical-line.png"
 
 function OurGuarentee() {

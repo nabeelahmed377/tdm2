@@ -311,7 +311,7 @@ video {
 
 .flip-backimg {
 
-  width  : 100%;
+  width: 100%;
 
 }
 
@@ -713,7 +713,8 @@ video {
 .techno-slider {
   /* background-color: rgb(197, 75, 75); */
   /* background            : linear-gradient(21deg, rgba(245, 127, 45, 1) 14%, rgba(255, 192, 0, 1) 58%); */
-  background: ""
+  background: "";
+  margin    : 47px 0px
 }
 
 .techno-img {
@@ -797,5 +798,23 @@ video {
   .container-xl,
   .container-xxl {
     max-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
   }
 }

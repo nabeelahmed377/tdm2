@@ -1,15 +1,15 @@
 import React from 'react'
 import "../Component/Footer.css"
-import logo from "../images/logo.png"
+import logo from "../images/logo2.png"
 
 
 function Footer() {
     return (
         <>
             <section id="footer">
-                <div class="container">
-                    <div class="row text-center text-xs-center text-sm-left text-md-left">
-                        {/* <h1 className="footer-text">“Everything You Can Imagine Is Real”</h1> */}
+                <div class="container pt-5">
+                    <div class="row text-center text-xs-center text-sm-left text-md-left ">
+                    
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <img className="footer-logo" src={logo} />
                             <p className="footer-para">

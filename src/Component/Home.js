@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../Component/Header"
 import Carasole from './Carasole'
-import Contact from './Contact'
+import Contact from '../Pages/Contact'
 import Footer from './Footer'
 import ImageSec from './ImageSec'
 import Navbar from './Navbar'
@@ -19,8 +19,8 @@ function Home() {
     return (
         <>
             
-            <Carasole />
-            {/* <Header /> */}
+            {/* <Carasole /> */}
+            <Header />
             <OurGuarentee />
             <Services />
             {/* <Services2 /> */}

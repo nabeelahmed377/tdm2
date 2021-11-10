@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Component/Footer.css"
 import logo from "../images/logo2.png"
+import stripe from "../images/stripe.png"
+import bank from "../images/bank.jpg"
 
 
 function Footer() {
@@ -48,10 +50,12 @@ function Footer() {
                             <h2 className="footer-heading">Contact Us</h2>
                             <ul className="list-unstyled quick-links">
 
-                                <li>Block-5 Near Rub Medical, Gulshan-e-Iqbal, Allama Shabbir Ahmed Usmani Rd, Karachi - Pakistan</li>
+                                <li>Block-5 Near Rub Medical, Gulshan-e-Iqbal, Allama Shabbir Ahmed Usmani Rd,<br/> Karachi - Pakistan</li>
                                 <li>Timing : Mon-Sat, 10:00am until 06:00pm</li>
                                 <li>Email : support@webexperts.pk</li>
                                 <li>Phone : 0313 6363496</li>
+                                <li><img style={{width:"20%",marginRight:"5px"}} src={stripe}/><img style={{width:"20%"}} src={bank}/></li>
+                                
 
                             </ul>
                         </div>

@@ -13,7 +13,7 @@ function Steps() {
 
 
                 <div class="row">
-                    <div class="col-md-5 mt-5 ">
+                    <div class="col-md-5  mb-4 ">
                         <div class="process-box process-left" data-aos="fade-right" data-aos-duration="1000">
                             <div class="row">
                                 <div class="col-md-5">
